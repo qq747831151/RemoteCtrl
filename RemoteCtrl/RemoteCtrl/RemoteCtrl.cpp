@@ -9,7 +9,10 @@
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
-
+//#pragma comment(linker,"/subsystem:windows /entry:WinMainCRTSartup")
+//#pragma comment(linker,"/subsystem:windows /entry:mainCRTSartup")
+//#pragma comment(linker,"/subsystem:console /entry:mainCRTStartup")
+//#pragma comment(linker,"/subsystem:console /entry:WinMainCRTSartup")
 
 // 唯一的应用程序对象
 
